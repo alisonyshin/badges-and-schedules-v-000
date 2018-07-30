@@ -34,4 +34,4 @@ def printer(attendees)
   end
 end
 
-printer(["Alison","Ali","Alishin"])
+#printer(["Alison","Ali","Alishin"])
