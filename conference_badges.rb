@@ -11,9 +11,8 @@ end
 
 
 def assign_rooms(names_list)
-  room_assignments=[]
-  names_list.each_with_index{|name,room_number|
-    room_assignments << "Hello, #{name}! You'll be assigned to room #{room_number +1}!" 
+  names_list.each_with_index.collect{|name,room_number|
+    "Hello, #{name}! You'll be assigned to room #{room_number +1}!" 
   }
   room_assignments
 end
