@@ -9,4 +9,4 @@ def batch_badge_creator(names_list)
 end
 
 def assign_rooms(names_list)
-  "Hello, #{name}! You'll be assigned to room #{room_no}!"
+  "Hello, #{name}! You'll be assigned to room #{room_number}!"
