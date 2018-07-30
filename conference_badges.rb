@@ -13,6 +13,8 @@ def batch_badge_creator(attendees)
   end
 end
 
+batch_badge_creator()
+
 def assign_rooms(names_list)
   room_assignments=[]
   names_list.each_with_index{|name,room_number|
