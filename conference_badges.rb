@@ -16,9 +16,9 @@ def assign_rooms(names_list)
   room_assignments
 end
 
-def printer(names_list)
-  puts batch_badge_creator(names_list)
-  puts assign_rooms(names_list)
+def printer(attendees)
+  puts batch_badge_creator(attendees)
+  puts assign_rooms(attendees)
 end
 
 #printer(["Alison", "Ali", "Alishin"])
