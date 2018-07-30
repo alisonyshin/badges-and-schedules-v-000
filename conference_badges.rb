@@ -21,4 +21,4 @@ def printer(names_list)
   assign_rooms(names_list)
 end
 
-printer(["Alison", "Ali", "Alishin"])
+#printer(["Alison", "Ali", "Alishin"])
