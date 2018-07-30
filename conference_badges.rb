@@ -14,3 +14,8 @@ def assign_rooms(names_list)
     room_hash[name] = room_number
     "Hello, #{name}! You'll be assigned to room #{room_number}!"
 end
+
+def printer
+  batch_badge_creator
+  assign_rooms
+end
