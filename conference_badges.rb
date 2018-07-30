@@ -20,3 +20,5 @@ def printer(names_list)
   puts batch_badge_creator
   assign_rooms
 end
+
+printer([Alison, Ali, Alishin])
