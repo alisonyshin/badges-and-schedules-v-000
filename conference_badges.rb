@@ -17,8 +17,10 @@ def assign_rooms(names_list)
 end
 
 def printer(attendees)
-  puts batch_badge_creator(attendees)
-  puts assign_rooms(attendees)
+  number_iteration = attendees.size
+  number_iteration.times
+    puts batch_badge_creator(attendees)[number_iteration]
+    puts assign_rooms(attendees)[number_iteration]
 end
 
 #printer(["Alison", "Ali", "Alishin"])
