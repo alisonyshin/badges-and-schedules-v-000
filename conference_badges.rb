@@ -33,3 +33,4 @@ def printer(attendees)
     puts room_assignment
   end
 end
+
