@@ -12,7 +12,7 @@ def assign_rooms(names_list)
   room_hash = Hash.new
   names_list.each_with_index{|name,room_number|
     room_hash[name] = room_number
-    "Hello, #{name}! You'll be assigned to room #{room_number}!"
+    puts "Hello, #{name}! You'll be assigned to room #{room_number}!"
 end
 
 def printer
