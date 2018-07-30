@@ -11,10 +11,9 @@ end
 
 
 def assign_rooms(names_list)
-  names_list.each_with_index.collect{|name,room_number|
-    "Hello, #{name}! You'll be assigned to room #{room_number +1}!" 
+  names_list.each_with_index.collect{|name,index|
+    "Hello, #{name}! You'll be assigned to room #{index +1}!" 
   }
-  room_assignments
 end
 
 def printer(attendees)
