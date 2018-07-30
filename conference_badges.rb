@@ -23,4 +23,4 @@ def printer(attendees)
     puts assign_rooms(attendees)[number_iteration]
 end
 
-#printer(["Alison", "Ali", "Alishin"])
+printer(["Alison", "Ali", "Alishin"])
