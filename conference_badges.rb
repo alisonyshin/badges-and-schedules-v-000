@@ -34,5 +34,3 @@ def printer(attendees)
     number_iteration +=1
   end
 end
-
-printer(["Alison", "Ali", "Alishin"])
