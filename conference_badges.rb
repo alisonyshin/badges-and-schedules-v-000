@@ -13,6 +13,7 @@ def assign_rooms(names_list)
   names_list.each_with_index{|name,room_number|
     room_assignments << "Hello, #{name}! You'll be assigned to room #{room_number}!" 
   }
+  room_assignments
 end
 
 def printer(names_list)
