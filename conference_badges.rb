@@ -4,8 +4,13 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(names_list)
-  badge_messages = names_list.collect {|name| badge_maker(name)}
+# def batch_badge_creator(names_list)
+#   badge_messages = names_list.collect {|name| badge_maker(name)}
+# end
+def batch_badge_creator(attendees)
+  attendees.map do |attendee|
+    "Hello, my name is #{attendee}."
+  end
 end
 
 def assign_rooms(names_list)
